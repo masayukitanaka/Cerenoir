@@ -40,6 +40,10 @@
     </array>
     <key>CFBundleVersion</key>
     <string>1</string>
+    <key>GADDelayAppMeasurementInit</key>
+    <false/>
+    <key>GADApplicationIdentifier</key>
+    <string>ca-app-pub-8544694020228255~5422999791</string>
     <key>ITSAppUsesNonExemptEncryption</key>
     <false/>
     <key>LSMinimumSystemVersion</key>
