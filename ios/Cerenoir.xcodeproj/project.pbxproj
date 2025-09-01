@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		098166A6A2EBBAF18EA00A00 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = C59BDD917FA9B2FD27350F15 /* PrivacyInfo.xcprivacy */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2AAD34F514681D62AD7D4C00 /* libPods-Cerenoir.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DEF0E26898692123D10D1AC /* libPods-Cerenoir.a */; };
+		2E0698DDEA6AA5D192FCB732 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B135229795699A2B128617 /* ExpoModulesProvider.swift */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
-		A2D9A075B3155DED966EE2B6 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3170BD7451F8A5FAD41852 /* ExpoModulesProvider.swift */; };
+		521A6A85587E1A92584A56F2 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 668ED650A75E4D908A1871EE /* PrivacyInfo.xcprivacy */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
-		BEA5B0A1B034874E87B60C40 /* libPods-Cerenoir.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8CFF9520BC9AC09A4FEFC9 /* libPods-Cerenoir.a */; };
 		F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11748412D0307B40044C1D9 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
@@ -20,16 +20,16 @@
 		13B07F961A680F5B00A75B9A /* Cerenoir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cerenoir.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Cerenoir/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Cerenoir/Info.plist; sourceTree = "<group>"; };
-		75F45524AD71C29BB30B63D3 /* Pods-Cerenoir.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cerenoir.debug.xcconfig"; path = "Target Support Files/Pods-Cerenoir/Pods-Cerenoir.debug.xcconfig"; sourceTree = "<group>"; };
+		1DEF0E26898692123D10D1AC /* libPods-Cerenoir.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cerenoir.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A6DFDDAF3E6E8AF4AFA08A /* Pods-Cerenoir.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cerenoir.release.xcconfig"; path = "Target Support Files/Pods-Cerenoir/Pods-Cerenoir.release.xcconfig"; sourceTree = "<group>"; };
+		61C7B92AF7603DD8CE360C9D /* Pods-Cerenoir.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cerenoir.debug.xcconfig"; path = "Target Support Files/Pods-Cerenoir/Pods-Cerenoir.debug.xcconfig"; sourceTree = "<group>"; };
+		668ED650A75E4D908A1871EE /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Cerenoir/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = Cerenoir/SplashScreen.storyboard; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
-		C59BDD917FA9B2FD27350F15 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Cerenoir/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		DA3170BD7451F8A5FAD41852 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-Cerenoir/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
-		EB8CFF9520BC9AC09A4FEFC9 /* libPods-Cerenoir.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cerenoir.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F11748412D0307B40044C1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Cerenoir/AppDelegate.swift; sourceTree = "<group>"; };
 		F11748442D0722820044C1D9 /* Cerenoir-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Cerenoir-Bridging-Header.h"; path = "Cerenoir/Cerenoir-Bridging-Header.h"; sourceTree = "<group>"; };
-		FC71424B71C1EA48E9057EDC /* Pods-Cerenoir.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cerenoir.release.xcconfig"; path = "Target Support Files/Pods-Cerenoir/Pods-Cerenoir.release.xcconfig"; sourceTree = "<group>"; };
+		F2B135229795699A2B128617 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-Cerenoir/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEA5B0A1B034874E87B60C40 /* libPods-Cerenoir.a in Frameworks */,
+				2AAD34F514681D62AD7D4C00 /* libPods-Cerenoir.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,34 +53,34 @@
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
-				C59BDD917FA9B2FD27350F15 /* PrivacyInfo.xcprivacy */,
+				668ED650A75E4D908A1871EE /* PrivacyInfo.xcprivacy */,
 			);
 			name = Cerenoir;
-			sourceTree = "<group>";
-		};
-		19F123E81A3E617096790FF9 /* ExpoModulesProviders */ = {
-			isa = PBXGroup;
-			children = (
-				548D39C6FAED2AEDB61FC1BB /* Cerenoir */,
-			);
-			name = ExpoModulesProviders;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				EB8CFF9520BC9AC09A4FEFC9 /* libPods-Cerenoir.a */,
+				1DEF0E26898692123D10D1AC /* libPods-Cerenoir.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		548D39C6FAED2AEDB61FC1BB /* Cerenoir */ = {
+		3B8AB6207E47D7495404D76D /* Cerenoir */ = {
 			isa = PBXGroup;
 			children = (
-				DA3170BD7451F8A5FAD41852 /* ExpoModulesProvider.swift */,
+				F2B135229795699A2B128617 /* ExpoModulesProvider.swift */,
 			);
 			name = Cerenoir;
+			sourceTree = "<group>";
+		};
+		604ED21D8A51025088944D07 /* ExpoModulesProviders */ = {
+			isa = PBXGroup;
+			children = (
+				3B8AB6207E47D7495404D76D /* Cerenoir */,
+			);
+			name = ExpoModulesProviders;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -97,8 +97,8 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				FA5094729AB4EB46871471F4 /* Pods */,
-				19F123E81A3E617096790FF9 /* ExpoModulesProviders */,
+				F8357FCA8840D67DF0F516AC /* Pods */,
+				604ED21D8A51025088944D07 /* ExpoModulesProviders */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -122,11 +122,11 @@
 			path = Cerenoir/Supporting;
 			sourceTree = "<group>";
 		};
-		FA5094729AB4EB46871471F4 /* Pods */ = {
+		F8357FCA8840D67DF0F516AC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				75F45524AD71C29BB30B63D3 /* Pods-Cerenoir.debug.xcconfig */,
-				FC71424B71C1EA48E9057EDC /* Pods-Cerenoir.release.xcconfig */,
+				61C7B92AF7603DD8CE360C9D /* Pods-Cerenoir.debug.xcconfig */,
+				49A6DFDDAF3E6E8AF4AFA08A /* Pods-Cerenoir.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -140,14 +140,14 @@
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Cerenoir" */;
 			buildPhases = (
 				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
-				2FA2E663DC6406ED16B36DB4 /* [Expo] Configure project */,
+				A32486C7DC337BEFC21446A9 /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
-				A1E3BEE10F1AE3FBDE51C487 /* [CP] Embed Pods Frameworks */,
-				E78B92574E72BDFA676E6E6E /* [CP-User] [RNGoogleMobileAds] Configuration */,
+				4DE3B2CD98C26AE5783156F9 /* [CP] Embed Pods Frameworks */,
+				BEF0E6E4E9A67E24B634B671 /* [CP-User] [RNGoogleMobileAds] Configuration */,
 			);
 			buildRules = (
 			);
@@ -197,7 +197,7 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
-				098166A6A2EBBAF18EA00A00 /* PrivacyInfo.xcprivacy in Resources */,
+				521A6A85587E1A92584A56F2 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,24 +241,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2FA2E663DC6406ED16B36DB4 /* [Expo] Configure project */ = {
+		4DE3B2CD98C26AE5783156F9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cerenoir/Pods-Cerenoir-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
 			);
-			name = "[Expo] Configure project";
-			outputFileListPaths = (
-			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-Cerenoir/expo-configure-project.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cerenoir/Pods-Cerenoir-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -310,25 +309,26 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cerenoir/Pods-Cerenoir-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A1E3BEE10F1AE3FBDE51C487 /* [CP] Embed Pods Frameworks */ = {
+		A32486C7DC337BEFC21446A9 /* [Expo] Configure project */ = {
 			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Cerenoir/Pods-Cerenoir-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
+			inputFileListPaths = (
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+			);
+			name = "[Expo] Configure project";
+			outputFileListPaths = (
+			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cerenoir/Pods-Cerenoir-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-Cerenoir/expo-configure-project.sh\"\n";
 		};
-		E78B92574E72BDFA676E6E6E /* [CP-User] [RNGoogleMobileAds] Configuration */ = {
+		BEF0E6E4E9A67E24B634B671 /* [CP-User] [RNGoogleMobileAds] Configuration */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -349,7 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */,
-				A2D9A075B3155DED966EE2B6 /* ExpoModulesProvider.swift in Sources */,
+				2E0698DDEA6AA5D192FCB732 /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,7 +358,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75F45524AD71C29BB30B63D3 /* Pods-Cerenoir.debug.xcconfig */;
+			baseConfigurationReference = 61C7B92AF7603DD8CE360C9D /* Pods-Cerenoir.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -394,7 +394,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC71424B71C1EA48E9057EDC /* Pods-Cerenoir.release.xcconfig */;
+			baseConfigurationReference = 49A6DFDDAF3E6E8AF4AFA08A /* Pods-Cerenoir.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

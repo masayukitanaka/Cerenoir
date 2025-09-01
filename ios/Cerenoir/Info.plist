@@ -40,10 +40,10 @@
     </array>
     <key>CFBundleVersion</key>
     <string>1</string>
-    <key>GADDelayAppMeasurementInit</key>
-    <false/>
     <key>GADApplicationIdentifier</key>
     <string>ca-app-pub-8544694020228255~5422999791</string>
+    <key>GADDelayAppMeasurementInit</key>
+    <false/>
     <key>ITSAppUsesNonExemptEncryption</key>
     <false/>
     <key>LSMinimumSystemVersion</key>
@@ -68,7 +68,7 @@
       <string>$(PRODUCT_BUNDLE_IDENTIFIER).expo.index_route</string>
     </array>
     <key>NSUserTrackingUsageDescription</key>
-    <string>This app would like to access your device's advertising identifier to provide you with personalized ads and content. This helps us improve your experience and keeps the app free to use.</string>
+    <string>This identifier will be used to deliver personalized ads to you.</string>
     <key>UILaunchStoryboardName</key>
     <string>SplashScreen</string>
     <key>UIRequiredDeviceCapabilities</key>
