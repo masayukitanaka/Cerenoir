@@ -53,10 +53,18 @@
       <key>NSAllowsLocalNetworking</key>
       <true/>
     </dict>
+    <key>NSHealthShareUsageDescription</key>
+    <string>Allow StepCounter to access your health data to display your daily steps, distance, flights climbed, mindfulness sessions, and sleep data</string>
+    <key>NSHealthUpdateUsageDescription</key>
+    <string>Allow StepCounter to save your mindfulness sessions to HealthKit</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Allow $(PRODUCT_NAME) to access your microphone</string>
     <key>NSUserActivityTypes</key>
     <array>
       <string>$(PRODUCT_BUNDLE_IDENTIFIER).expo.index_route</string>
     </array>
+    <key>NSUserTrackingUsageDescription</key>
+    <string>This app would like to access your device's advertising identifier to provide you with personalized ads and content. This helps us improve your experience and keeps the app free to use.</string>
     <key>UILaunchStoryboardName</key>
     <string>SplashScreen</string>
     <key>UIRequiredDeviceCapabilities</key>
